@@ -238,7 +238,8 @@ CORS_ORIGINS=http://localhost:3000
 - Images are compressed before processing
 - Real-time updates use efficient WebSocket connections
 
-### ScreenShots 
+### ScreenShots
+---
 
 <img width="1916" height="1030" alt="Screenshot 2026-01-17 131859" src="https://github.com/user-attachments/assets/5fdb5b6f-96fd-4b1c-99be-688ef9aef01c" />
 
