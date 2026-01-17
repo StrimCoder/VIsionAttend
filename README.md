@@ -1,10 +1,8 @@
 # VisionAttend
----
 
 A comprehensive attendance management system with advanced features including face recognition, geolocation verification, and real-time analytics.
 
 ## Features
----
 
 ### Core Features
 - **Face Recognition**: Advanced facial recognition for secure attendance marking
@@ -23,7 +21,6 @@ A comprehensive attendance management system with advanced features including fa
 - **Location Radius**: Configurable attendance radius for classes
 
 ## Technology Stack
----
 
 ### Backend
 - **FastAPI**: Modern Python web framework
@@ -42,7 +39,6 @@ A comprehensive attendance management system with advanced features including fa
 - **Recharts**: Data visualization
 
 ## Installation & Setup
----
 
 ### Backend Setup
 
@@ -89,8 +85,7 @@ npm start
 
 The frontend will be available at `http://localhost:3000`
 
-## User Management & Access Control
----
+## User Management & Access Controll
 
 ### Registration Rules
 - **First User**: The first person to register automatically becomes an admin (regardless of selected role)
@@ -137,7 +132,6 @@ The frontend will be available at `http://localhost:3000`
 - **Student**: Mark attendance, view personal history, enroll in classes
 
 ## Usage
----
 
 ### Initial Setup
 
@@ -177,7 +171,6 @@ The frontend will be available at `http://localhost:3000`
 - Update profile and face encoding
 
 ## API Endpoints
----
 
 ### Authentication
 - `POST /register` - Register new user
@@ -200,7 +193,6 @@ The frontend will be available at `http://localhost:3000`
 - `GET /dashboard/stats` - Get dashboard statistics
 
 ## Security Features
----
 
 - JWT token authentication
 - Password hashing with bcrypt
@@ -210,7 +202,6 @@ The frontend will be available at `http://localhost:3000`
 - Input validation and sanitization
 
 ## Configuration
----
 
 ### Environment Variables
 Create a `.env` file in the backend directory:
@@ -232,7 +223,6 @@ CORS_ORIGINS=http://localhost:3000
 - Fallback: Manual location entry
 
 ## Troubleshooting
----
 
 ### Common Issues
 
@@ -248,13 +238,30 @@ CORS_ORIGINS=http://localhost:3000
 - Images are compressed before processing
 - Real-time updates use efficient WebSocket connections
 
-## Contributing
+### ScreenShots 
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
+<img width="1916" height="1030" alt="Screenshot 2026-01-17 131859" src="https://github.com/user-attachments/assets/5fdb5b6f-96fd-4b1c-99be-688ef9aef01c" />
+
+<img width="1914" height="1029" alt="Screenshot 2026-01-17 131915" src="https://github.com/user-attachments/assets/10d7da1c-4b8f-431f-859a-e356fcf86ba2" />
+
+<img width="1915" height="1029" alt="Screenshot 2026-01-17 131928" src="https://github.com/user-attachments/assets/c9c66388-2d18-4160-a0cb-bdc3042112d0" />
+
+<img width="1912" height="1035" alt="Screenshot 2026-01-17 131939" src="https://github.com/user-attachments/assets/5d6f528f-ff45-489a-8644-433052a6d179" />
+
+<img width="1917" height="1027" alt="Screenshot 2026-01-17 131950" src="https://github.com/user-attachments/assets/b5381164-c46f-498c-89cc-3e433b312466" />
+
+<img width="1913" height="1026" alt="Screenshot 2026-01-17 132015" src="https://github.com/user-attachments/assets/970fa72c-7996-48f8-905b-fda2a638da9d" />
+
+<img width="1908" height="1030" alt="Screenshot 2026-01-17 132032" src="https://github.com/user-attachments/assets/b72fa949-a226-4ce6-a51e-eeb1dfa1b25a" />
+
+<img width="1919" height="969" alt="Screenshot 2026-01-17 132045" src="https://github.com/user-attachments/assets/9d096df8-6996-423d-81cd-3553e1d2af0b" />
+
+<img width="1915" height="1035" alt="Screenshot 2026-01-17 132058" src="https://github.com/user-attachments/assets/93b03c0f-ffd7-46e7-86a3-8fab299f585a" />
+
+<img width="1913" height="1032" alt="Screenshot 2026-01-17 132117" src="https://github.com/user-attachments/assets/d40e3984-92c3-4bfc-b165-f60c07834b63" />
+
+<img width="1914" height="1031" alt="Screenshot 2026-01-17 132126" src="https://github.com/user-attachments/assets/7659e1f8-d4b5-4c4e-87e8-8f57dc5af913" />
+
 
 ---
 
