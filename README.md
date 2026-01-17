@@ -1,8 +1,10 @@
-# Smart Attendance System
+# VisionAttend
+---
 
 A comprehensive attendance management system with advanced features including face recognition, geolocation verification, and real-time analytics.
 
 ## Features
+---
 
 ### Core Features
 - **Face Recognition**: Advanced facial recognition for secure attendance marking
@@ -21,6 +23,7 @@ A comprehensive attendance management system with advanced features including fa
 - **Location Radius**: Configurable attendance radius for classes
 
 ## Technology Stack
+---
 
 ### Backend
 - **FastAPI**: Modern Python web framework
@@ -39,6 +42,7 @@ A comprehensive attendance management system with advanced features including fa
 - **Recharts**: Data visualization
 
 ## Installation & Setup
+---
 
 ### Backend Setup
 
@@ -86,6 +90,7 @@ npm start
 The frontend will be available at `http://localhost:3000`
 
 ## User Management & Access Control
+---
 
 ### Registration Rules
 - **First User**: The first person to register automatically becomes an admin (regardless of selected role)
@@ -132,6 +137,7 @@ The frontend will be available at `http://localhost:3000`
 - **Student**: Mark attendance, view personal history, enroll in classes
 
 ## Usage
+---
 
 ### Initial Setup
 
@@ -171,6 +177,7 @@ The frontend will be available at `http://localhost:3000`
 - Update profile and face encoding
 
 ## API Endpoints
+---
 
 ### Authentication
 - `POST /register` - Register new user
@@ -193,6 +200,7 @@ The frontend will be available at `http://localhost:3000`
 - `GET /dashboard/stats` - Get dashboard statistics
 
 ## Security Features
+---
 
 - JWT token authentication
 - Password hashing with bcrypt
@@ -202,6 +210,7 @@ The frontend will be available at `http://localhost:3000`
 - Input validation and sanitization
 
 ## Configuration
+---
 
 ### Environment Variables
 Create a `.env` file in the backend directory:
@@ -223,6 +232,7 @@ CORS_ORIGINS=http://localhost:3000
 - Fallback: Manual location entry
 
 ## Troubleshooting
+---
 
 ### Common Issues
 
@@ -246,10 +256,22 @@ CORS_ORIGINS=http://localhost:3000
 4. Add tests if applicable
 5. Submit a pull request
 
-## License
+---
 
-This project is licensed under the MIT License.
+## 🙌 Contribution  
 
-## Support
+Contributions, ideas, and suggestions are always welcome!  
+Feel free to check the [issues page](https://github.com/StrimCoder/The-BigBull---Stock-Prediction-Model/issues) or submit a pull request.
 
-For support and questions, please create an issue in the repository or contact the development team.
+---
+
+## 📃 License  
+
+This project is **open-source** and available under the [MIT License](LICENSE).
+
+---
+
+## 👑 Created By  
+
+**Bhushan Navsagar** ✨  
+[GitHub](https://github.com/StrimCoder) | [LinkedIn](https://www.linkedin.com/in/bhushan-navsagar-2b683a293/)
