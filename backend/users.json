@@ -1,0 +1,23 @@
+{
+  "users": {
+    "strim123": {
+      "id": 5,
+      "username": "strim123",
+      "password": "strim123",
+      "email": "bhushanavsagar@gmail.com",
+      "full_name": "strim navsagar",
+      "role": "admin",
+      "is_active": true
+    },
+    "savita123": {
+      "id": 6,
+      "username": "savita123",
+      "password": "savita123",
+      "email": "savita123@gmail.com",
+      "full_name": "Savita kambale ",
+      "role": "teacher",
+      "is_active": true
+    }
+  },
+  "counter": 7
+}
