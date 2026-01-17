@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Dark theme styles */
+.dark {
+  background-color: #111827 !important;
+  color: #f9fafb !important;
+}
+
+.dark .bg-white {
+  background-color: #1f2937 !important;
+  color: #f9fafb !important;
+}
+
+.dark .bg-gray-50 {
+  background-color: #111827 !important;
+}
+
+.dark .text-gray-900 {
+  color: #f9fafb !important;
+}
+
+.dark .text-gray-600 {
+  color: #d1d5db !important;
+}
+
+.dark .text-gray-700 {
+  color: #e5e7eb !important;
+}
+
+.dark .text-gray-500 {
+  color: #9ca3af !important;
+}
+
+.dark .border-gray-200 {
+  border-color: #374151 !important;
+}
+
+.dark .border-gray-300 {
+  border-color: #4b5563 !important;
+}
+
+.dark nav {
+  background-color: #1f2937 !important;
+  border-color: #374151 !important;
+}
+
+.dark aside {
+  background-color: #1f2937 !important;
+}
+
+.dark .shadow {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 1px 2px 0 rgba(0, 0, 0, 0.2) !important;
+}
+
+.dark .shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Input fields in dark mode */
+.dark input,
+.dark select,
+.dark textarea {
+  background-color: #374151 !important;
+  border-color: #4b5563 !important;
+  color: #f9fafb !important;
+}
+
+.dark input:focus,
+.dark select:focus,
+.dark textarea:focus {
+  border-color: #3b82f6 !important;
+  box-shadow: 0 0 0 1px #3b82f6 !important;
+}
+
+/* Buttons in dark mode */
+.dark button:not(.bg-primary-600):not(.bg-blue-500):not(.bg-green-500):not(.bg-red-500) {
+  background-color: #374151 !important;
+  color: #f9fafb !important;
+  border-color: #4b5563 !important;
+}
+
+.dark button:hover:not(.bg-primary-600):not(.bg-blue-500):not(.bg-green-500):not(.bg-red-500) {
+  background-color: #4b5563 !important;
+}
+
+/* Preserve colored buttons */
+.dark .bg-primary-600,
+.dark .bg-blue-500,
+.dark .bg-green-500,
+.dark .bg-red-500,
+.dark .bg-purple-500,
+.dark .bg-yellow-500,
+.dark .bg-indigo-500 {
+  color: white !important;
+}
+
+/* Cards and containers */
+.dark .rounded-lg {
+  background-color: #1f2937 !important;
+}
+
+/* Gradients should remain unchanged */
+.dark .bg-gradient-to-r {
+  color: white !important;
+}
